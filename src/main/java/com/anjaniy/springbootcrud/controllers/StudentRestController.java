@@ -5,6 +5,9 @@ import com.anjaniy.springbootcrud.repository.StudentRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+//For Delete Method:
+import static org.springframework.web.bind.annotation.RequestMethod.DELETE;
+
 import java.util.List;
 
 @RestController
@@ -38,7 +41,7 @@ public class StudentRestController {
     }
 
     //Delete Student:
-    @RequestMapping(value = "/students/{id}", method = RequestMethod.DELETE)
+    @RequestMapping(value = "/students/{id}", method = DELETE)
     public void deleteStudent(@PathVariable("id") int id){
         repo.deleteById(id);
     }
