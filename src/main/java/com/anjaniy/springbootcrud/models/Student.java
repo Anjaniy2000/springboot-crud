@@ -11,8 +11,10 @@ public class Student {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
-    private String name;
-    private int testscore;
+    private String fullName;
+    private String branchName;
+    private int currentCGPA;
+    private int passoutYear;
 
     public int getId() {
         return id;
@@ -22,19 +24,35 @@ public class Student {
         this.id = id;
     }
 
-    public String getName() {
-        return name;
+    public String getFullName() {
+        return fullName;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setFullName(String fullName) {
+        this.fullName = fullName;
     }
 
-    public int getTestscore() {
-        return testscore;
+    public String getBranchName() {
+        return branchName;
     }
 
-    public void setTestscore(int testscore) {
-        this.testscore = testscore;
+    public void setBranchName(String branchName) {
+        this.branchName = branchName;
+    }
+
+    public int getCurrentCGPA() {
+        return currentCGPA;
+    }
+
+    public void setCurrentCGPA(int currentCGPA) {
+        this.currentCGPA = currentCGPA;
+    }
+
+    public int getPassoutYear() {
+        return passoutYear;
+    }
+
+    public void setPassoutYear(int passoutYear) {
+        this.passoutYear = passoutYear;
     }
 }
