@@ -12,6 +12,7 @@ public class Student {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     private String name;
+    private int testscore;
 
     public int getId() {
         return id;
@@ -27,5 +28,13 @@ public class Student {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public int getTestscore() {
+        return testscore;
+    }
+
+    public void setTestscore(int testscore) {
+        this.testscore = testscore;
     }
 }
