@@ -55,5 +55,5 @@ public class Student {
 
     public void setPassoutyear(int passoutyear) {
         this.passoutyear = passoutyear;
-
+    }
 }
