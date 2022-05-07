@@ -45,7 +45,7 @@ public class Student {
         return cgpa;
     }
 
-    public void setCgpa(int cgpa) {
+    public void setCgpa(float cgpa) {
         this.cgpa = cgpa;
     }
 
