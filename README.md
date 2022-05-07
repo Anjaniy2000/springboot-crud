@@ -2,6 +2,17 @@
 
 <h2>Performed CRUD(Create, Read, Update, Delete) Opreations In Spring Boot With MySQL Database On Undertow Web Server.</h2>
 
+<h3>Technologies: </h3>
+
+1). Java 17
+
+2). Spring Boot (2.6)
+
+3). Undertow Server
+
+4). Swagger (For APIs Documentation)
+
+
 <h3>Dependencies: </h3>
 
 1). Spring Web
