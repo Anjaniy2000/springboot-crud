@@ -8,9 +8,7 @@
 
 2). Spring Boot (2.6)
 
-3). Undertow Server
-
-4). Swagger (For APIs Documentation)
+3). Undertow Web Server
 
 
 <h3>Dependencies: </h3>
