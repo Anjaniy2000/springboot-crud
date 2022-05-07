@@ -10,5 +10,5 @@
 
 3). MySQL Driver
 
-4). Swagger (For API Documentation)
+4). Swagger (For APIs Documentation)
 
