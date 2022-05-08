@@ -6,7 +6,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-@OpenAPIDefinition(info = @Info(title = "Student API", version = "1.0", description = "This API is for Students"))
+@OpenAPIDefinition(info = @Info(title = "Student-API", version = "2.0", description = "This API is for Students"))
 public class SpringbootcrudApplication {
 
 	public static void main(String[] args) {
